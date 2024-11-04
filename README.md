@@ -23,4 +23,10 @@ Este projeto visa desenvolver um sistema de gerenciamento de dados de empresas u
 - Exportar dados para CSV
 - Visualizar dados de um arquivo JSON externo
 
+## Como Executar
+Para executar o projeto, siga as etapas abaixo:
 
+```bash
+pip install pymongo
+cd python  # ou cd Python
+python Sprint.py
