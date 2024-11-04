@@ -1,0 +1,102 @@
+[
+    {
+        "_id": "6727f92411bb03d061cc94ba",
+        "CNPJ": "12345678901234",
+        "nm_empresa": "FIAP",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "Fiap@Fiap.com",
+        "nr_funcionarios": 12,
+        "id_empresa": "1"
+    },
+    {
+        "_id": "6727ffa7594b6a3db42d3095",
+        "CNPJ": "34567890123456",
+        "nm_empresa": "IBM",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "ibm@ibm.com.br",
+        "nr_funcionarios": 12,
+        "id_empresa": "2"
+    },
+    {
+        "_id": "67280050594b6a3db42d3096",
+        "CNPJ": "45678901234567",
+        "nm_empresa": "Google",
+        "st_empresa": "Inativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "google@google.com.br",
+        "nr_funcionarios": 1002020,
+        "id_empresa": "3"
+    },
+    {
+        "_id": "6728009d594b6a3db42d3097",
+        "CNPJ": "56789012345678",
+        "nm_empresa": "Atlas",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "atlas@atlas.com.br",
+        "nr_funcionarios": 1234,
+        "id_empresa": "4"
+    },
+    {
+        "_id": "672800d2594b6a3db42d3098",
+        "CNPJ": "67890123456789",
+        "nm_empresa": "Lenovo",
+        "st_empresa": "Inativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "lenovo@lenovo.com.br",
+        "nr_funcionarios": 98765,
+        "id_empresa": "5"
+    },
+    {
+        "_id": "67280125594b6a3db42d3099",
+        "CNPJ": "78901234567890",
+        "nm_empresa": "Apple",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "apple@apple.com.br",
+        "nr_funcionarios": 53112,
+        "id_empresa": "6"
+    },
+    {
+        "_id": "672801bc594b6a3db42d309a",
+        "CNPJ": "89012345678901",
+        "nm_empresa": "Amazon",
+        "st_empresa": "Inativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "amazon@amazon.com.br",
+        "nr_funcionarios": 12346,
+        "id_empresa": "7"
+    },
+    {
+        "_id": "67280202594b6a3db42d309b",
+        "CNPJ": "90123456789012",
+        "nm_empresa": "Tesla",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "tesla@tesla.com.br",
+        "nr_funcionarios": 17345,
+        "id_empresa": "8"
+    },
+    {
+        "_id": "672802612765f167fa918e69",
+        "CNPJ": "01234567890123",
+        "nm_empresa": "Claro",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "claro@claro.com.br",
+        "nr_funcionarios": 534912,
+        "id_empresa": "9"
+    },
+    {
+        "_id": "6729089abdabd82867d73d5e",
+        "CNPJ": "26374895610294",
+        "nm_empresa": "Oracle",
+        "st_empresa": "Ativo",
+        "tp_empresa": "Tecnologia",
+        "ds_email": "oracle@oracle.com.br",
+        "nr_funcionarios": 2183,
+        "id_empresa": "0"
+    }
+]

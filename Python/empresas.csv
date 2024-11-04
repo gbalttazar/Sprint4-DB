@@ -1,0 +1,11 @@
+ID Empresa,CNPJ,Nome Empresa,Status,Tipo Empresa,Email,Número de Funcionários
+1,12345678901234,FIAP,Ativo,Tecnologia,Fiap@Fiap.com,12
+2,34567890123456,IBM,Ativo,Tecnologia,ibm@ibm.com.br,12
+3,45678901234567,Google,Inativo,Tecnologia,google@google.com.br,1002020
+4,56789012345678,Atlas,Ativo,Tecnologia,atlas@atlas.com.br,1234
+5,67890123456789,Lenovo,Inativo,Tecnologia,lenovo@lenovo.com.br,98765
+6,78901234567890,Apple,Ativo,Tecnologia,apple@apple.com.br,53112
+7,89012345678901,Amazon,Inativo,Tecnologia,amazon@amazon.com.br,12346
+8,90123456789012,Tesla,Ativo,Tecnologia,tesla@tesla.com.br,17345
+9,01234567890123,Claro,Ativo,Tecnologia,claro@claro.com.br,534912
+0,26374895610294,Oracle,Ativo,Tecnologia,oracle@oracle.com.br,2183
