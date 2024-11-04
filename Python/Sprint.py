@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 import csv
 import re
+import json
 from bson.objectid import ObjectId
 
 def connect_to_database():
@@ -122,6 +123,17 @@ def export_dados_empresas(collection):
     except Exception as e:
         print(f"Ocorreu um erro ao exportar os dados: {e}")
 
+def show_external_json_data(filepath):
+    """Lê e exibe dados de um arquivo JSON externo."""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            print("Dados do arquivo JSON:")
+            for entry in data:
+                print(entry)
+    except Exception as e:
+        print(f"Ocorreu um erro ao ler o arquivo JSON: {e}")
+
 def main_menu():
     collection = connect_to_database()
 
@@ -132,7 +144,8 @@ def main_menu():
         print("3. Atualizar empresa")
         print("4. Excluir empresa")
         print("5. Exportar dados das empresas")
-        print("6. Sair")
+        print("6. Visualizar dados do arquivo JSON externo")
+        print("7. Sair")
         option = input("Escolha o número da operação desejada: ")
 
         if option == '1':
@@ -154,6 +167,8 @@ def main_menu():
         elif option == '5':
             export_dados_empresas(collection)
         elif option == '6':
+            show_external_json_data('/workspaces/Sprint4-DB/Python/arquivo json/empresas.json')
+        elif option == '7':
             print("Encerrando...")
             break
         else:
